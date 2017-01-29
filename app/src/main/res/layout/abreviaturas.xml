@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Abreviaturas Operacionais"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="CP -"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CIRCUNFERÊNCIA DA PANTURRILHA"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AJ - "
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALTURA DO JOELHO"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CB - "
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CIRCUNFERÊNCIA DO BRAÇO"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PCSE - "
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PREGA CUTÂNEA SUB-ESCAPULAR"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

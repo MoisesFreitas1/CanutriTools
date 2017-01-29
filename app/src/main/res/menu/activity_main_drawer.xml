@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Início" />
+        <item
+            android:id="@+id/nav_imc"
+            android:icon="@drawable/icimc"
+            android:title="IMC" />
+        <item
+            android:id="@+id/nav_pi"
+            android:icon="@drawable/body"
+            android:title="Peso Ideal" />
+        <item
+            android:id="@+id/nav_ep"
+            android:icon="@drawable/balance"
+            android:title="Estimativa do Peso" />
+        <item
+            android:id="@+id/nav_ee"
+            android:icon="@drawable/regua"
+            android:title="Estimativa da Estatura" />
+        <item
+            android:id="@+id/nav_abreviaturas"
+            android:icon="@drawable/tesoura"
+            android:title="Abreviaturas Operacionais" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartilhar" />
+            <item
+                android:id="@+id/nav_sobre"
+                android:icon="@drawable/sobre"
+                android:title="Sobre" />
+        </menu>
+    </item>
+
+</menu>

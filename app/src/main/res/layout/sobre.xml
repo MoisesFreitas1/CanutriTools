@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/activity_horizontal_margin">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="SOBRE"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="italic"
+            android:textSize="15dp"
+            android:text="A Avaliação Antropométrica necessita de uma coleta extensa de dados, para realização de cálculos posteriores, como por exemplo: Estimativas de Peso e Estatura, onde somente poderá ser realizada mediante equações, o CANUTRI Tools tem por objetivo facilitar a realização dessas equações tornando o trabalho mais rápido e eficiente."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:paddingTop="10dp"
+            android:text="Equipe"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:paddingTop="5dp"
+            android:text="Desenvolvedores"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="italic"
+            android:textSize="15dp"
+            android:text="Moisés Freitas"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="italic"
+            android:textSize="15dp"
+            android:text="Victor Sales"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Designer"
+            android:paddingTop="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textStyle="italic"
+            android:textSize="15dp"
+            android:text="Karine Brandão"/>
+    </LinearLayout>
+
+</ScrollView>
